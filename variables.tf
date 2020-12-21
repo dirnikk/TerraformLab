@@ -13,3 +13,11 @@ variable "region-worker" {
   default = "us-west-2"
 }
 
+[var.external_ip]
+
+variable "external_ip" {
+  type    = string
+  default = "0.0.0.0/0"
+}
+
+
